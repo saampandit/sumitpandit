@@ -9,7 +9,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <link href="myself.css" rel="stylesheet">
+  <link href="css/myself.css" rel="stylesheet">
   <script type="text/javascript">
     var host = "sumitpandit.com";
     if ((host == window.location.host) && (window.location.protocol != "https:"))
@@ -29,7 +29,12 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">TECH</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">TECH <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="html/python_welcome.html">Python</a></li>
+          </ul>
+        </li>
         <li><a href="#">NEWS</a></li>
         <li><a href="#">MISC</a></li>
       </ul>
@@ -39,7 +44,7 @@
 
 <div class="container-fluid bg-1 text-center" >
 <h3>Who Am I?</h3>
-<img src="crop_myself.jpg" class="img-responsive img-circle" style="display:inline" alt="myself">
+<img src="img/crop_myself.jpg" class="img-responsive img-circle" style="display:inline" alt="myself">
 <h3>is the most electrifying man in software industry..<a href="http://www.sherv.net/"><img alt="ROFLMAO" width=93 height=71 src="http://www.sherv.net/cm/emo/laughing/roflmao.gif"></a></h3>
 </div>
 <div class="container-fluid bg-2 text-center">
@@ -57,15 +62,15 @@
   <div class="row">
     <div class="col-sm-4">
       <p>At any local tea shop nearby my home</p>
-      <img src="tea.jpg" alt="Image"  width="350" height="300">
+      <img src="img/tea.jpg" alt="Image"  width="350" height="300">
     </div>
     <div class="col-sm-4"> 
       <p><b>@pysumit</b></p>
-      <img src="twitter.jpg" alt="Image" width="350" height="300">
+      <img src="img/twitter.jpg" alt="Image" width="350" height="300">
     </div>
     <div class="col-sm-4"> 
       <p><b>Mail me at <a>psumit6@gmail.com</a></b></p>
-      <img src="mail.jpg" alt="Image" width="350" height="300">
+      <img src="img/mail.jpg" alt="Image" width="350" height="300">
     </div>
   </div>
 </div>
